@@ -19,8 +19,8 @@ const createTuit = async (req, res) => {
  res.json(insertedTuit);
 }
 
-const findTuits = (req, res) =>
-    res.json(tuits);
+// const findTuits = (req, res) =>
+//     res.json(tuits);
 
 const updateTuit = async (req, res) => {
  const tuitdIdToUpdate = req.params.tid;
